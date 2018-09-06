@@ -120,35 +120,7 @@
         background-color: rgba(233, 30, 99, 0.7);
     }
 }
-.dropdown .dropdown-menu .dropdown-item:hover, 
-.dropleft .dropdown-menu .dropdown-item:active, 
-.dropleft .dropdown-menu .dropdown-item:hover, 
-.dropright .dropdown-menu .dropdown-item:active, 
-.dropright .dropdown-menu .dropdown-item:hover, 
-.dropup .dropdown-menu .dropdown-item:active, 
-.dropup .dropdown-menu .dropdown-item:hover {
-  color: #fff !important;
-}
 
-.dropdown .dropdown-menu.dropdown-primary .dropdown-item:active, .dropdown .dropdown-menu.dropdown-primary .dropdown-item:hover, .dropleft .dropdown-menu.dropdown-primary .dropdown-item:active, .dropleft .dropdown-menu.dropdown-primary .dropdown-item:hover, .dropright .dropdown-menu.dropdown-primary .dropdown-item:active, .dropright .dropdown-menu.dropdown-primary .dropdown-item:hover, .dropup .dropdown-menu.dropdown-primary .dropdown-item:active, .dropup .dropdown-menu.dropdown-primary .dropdown-item:hover {
-    background-color: rgba(233, 30, 99, 0.7) !important;
-}
-.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover, .dropleft .dropdown-menu .dropdown-item:active, .dropleft .dropdown-menu .dropdown-item:hover, .dropright .dropdown-menu .dropdown-item:active, .dropright .dropdown-menu .dropdown-item:hover, .dropup .dropdown-menu .dropdown-item:active, .dropup .dropdown-menu .dropdown-item:hover {
-    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
-    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
-    background-color: #4285f4;
-    -webkit-border-radius: .125rem;
-    border-radius: .125rem;
-    -webkit-transition: all .3s linear;
-    -o-transition: all .3s linear;
-    transition: all .3s linear;
-}
-
-.dropdown .dropdown-menu .dropdown-item {
-  padding: .5rem;
-margin-left: 0;
-font-size: .9rem;
-}
 /*.dropdown-menu {
   transform: translateY(-2em);
   z-index: -1;
@@ -159,32 +131,8 @@ font-size: .9rem;
   display: block;
 }
 */
-.dropdown:focus .dropdown-menu,
-.dropdown:focus-within .dropdown-menu,
-.dropdown:hover .dropdown-menu {
-  visibility: visible;
-  opacity: 1;
-  z-index: 1;
-  transform: translateY(0%);
-  transition-delay: 0s, 0s, 0.3s;} /* this removes the transition delay so the menu will be visible while the other styles transition */
 
-#info2 {
-  margin-top: -100px;
-}
-.border {
-  border: 2px solid rgba(233, 30, 99, 0.7) !important;
-}
-.custom-height-2 {
-  line-height: 1.6;
-}
-.sub-feature-list {
-  list-style: none;
-  line-height: 2;
-}
-.mega-menu {
-  width: 550px;
-  padding: 2px;
-}
+
 .sub-feature-list li:before {
   content: '✓  ';
   border-radius: 6px;
