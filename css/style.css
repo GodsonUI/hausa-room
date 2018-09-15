@@ -276,3 +276,11 @@ a.waves-effect, a.waves-light {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.btn-gplus {
+    background-color: #dd4b39 !important;
+    color: #fff !important;
+}
+.btn-ins {
+    background-color: #2e5e86 !important;
+    color: #fff !important;
+}
