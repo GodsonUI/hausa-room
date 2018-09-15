@@ -7363,8 +7363,8 @@ table.table-sm td {
         -webkit-border-radius: 50%;
         border-radius: 50%; }
 
-.view .full-bg-img {
-  height: 100%; }
+/*.view .full-bg-img {
+  height: 100%; }*/
 
 .view .full-bg-img,
 .view .full-bg-img video {
@@ -7378,3 +7378,5 @@ table.table-sm td {
 .full-height header,
 .full-height header .view {
   height: 100%; }
+
+  

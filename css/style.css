@@ -121,25 +121,16 @@
     }
 }
 
-/*.dropdown-menu {
-  transform: translateY(-2em);
-  z-index: -1;
-  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
-}*/
-
-/*.dropdown:hover>.dropdown-menu {
-  display: block;
+.nav-link {
+  -webkit-transition: 2.55s;
+  -o-transition: 2.55s;
+  transition: 2.55s;
 }
-*/
-
-
-.sub-feature-list li:before {
-  content: '✓  ';
-  border-radius: 6px;
-  margin-right: 5px;
-  background-color: rgba(233, 30, 99, 0.1);
-  padding: 5px 4px 5px 8px;
-  color: rgba(233, 30, 99, 0.7);
+.nav-link:hover {
+  background-color: #d7aa74;
+  -webkit-transition: 4.55s;
+  -o-transition: 4.55s;
+  transition: 4.55s;
 }
 .section-padding {
   padding-top: 150px;
@@ -149,10 +140,95 @@
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.banner {
-  background: url('../img/banners/payment-banner.jpg')no-repeat center center;
-  background-size: cover;
-}
 .footer-text {
   color: #272e4b !important;
+}
+
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 60%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+@media (max-width: 776px) {
+  .carousel {
+    height: 100%; } }
+
+/* Navbar animation */
+/*.navbar {
+  background-color: rgba(0, 0, 0, 0.2); }
+*/
+.default-bg-color {
+  background-color: #f0be82 !important;
+}
+.top-nav-collapse {
+  background-color: #929FBA; }
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #929FBA; } }
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #929FBA; }
+.no-shadow .card {
+  box-shadow: none;
+}
+.card .btn-action {
+    margin-top: -1.44rem;
+    margin-bottom: -1.44rem;
+}
+.mdb-color.lighten-3 {
+    background-color: #929fba !important;
+}
+a.waves-effect, a.waves-light {
+    display: inline-block;
+}
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+
+.magazine-section .single-news {
+    border-bottom: 1px solid #e0e0e0;
+}
+.logo {
+  height: auto;
+  max-width: 170px;
 }

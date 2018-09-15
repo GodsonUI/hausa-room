@@ -14,20 +14,58 @@
   <link href="css/mdb.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
+
+  <style type="text/css">
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 65vh !important;
+      }
+
+      @media (max-width: 740px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
+
+      @media (min-width: 800px) and (max-width: 850px) {
+        html,
+        body,
+        header,
+        .carousel {
+          height: 100vh;
+        }
+      }
+
+      @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #929FBA!important;
+              }
+          }
+  </style> 
 </head>
 
 <body>
-  <!-- Start your project here-->
+  <!-- Project starts here-->
+  <!-- Header section-->
   <header>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark py-lg-0  brown lighten-2">
-      <div class="container">
-        <a class="navbar-brand" href="#"><strong>Hausa Room</strong></a>
+    <!-- Navigation section here-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark default-bg-color  py-lg-0 ">
+      <div class="container-fluid px-lg-5 px-md-3">
+        <a class="navbar-brand" href="#">
+          <img src="img/logos/logo.png" class="img-fluid logo" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link px-lg-3 py-lg-4" href="#">News <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
@@ -37,29 +75,276 @@
               <a class="nav-link px-lg-3 py-lg-4" href="#">Restaurants</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link px-lg-3 py-lg-4" href="#">Graphics</a>
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Disigners</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Photographers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Cake Snobs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Arts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Eulogy</a>
             </li>
             <li class="nav-item">
               <a class="nav-link px-lg-3 py-lg-4" href="#">Photography</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 py-lg-4" href="#">Contact</a>
             </li>
           </ul>
         </div>
       </div>  
     </nav>
+    <!-- Navigation section here -->
+    
+    <!-- Header banner and content here -->
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
 
-    <div class="view intro-2" style="background: url('img/banners/slider1.jpg')no-repeat center center;
-    background-size: cover; height: 70%;">
-      <div class="full-bg-img">
-        <div class="mask rgba-stylish-strong flex-center">
-          <div class="container white-text">
-            <div class="col-md-6">
-              <div class="wow fadeInUp">
-                <h2 class="title1">Top 5 Movie Cinemas</h2>
-                <!-- <h5>It will always stay visible on the top, even when you scroll down</h5> -->
-                <br>
-                <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('img/banners/avengers-4-1.png'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask light-mask d-flex align-items-center">
+              <!-- Content -->
+              <div class="container white-text">
+                <div class="col-md-6">
+                  <div class="wow fadeInUp">
+                    <h2 class="title1">Top 5 Movie Cinemas</h2>
+                    <!-- <h5>It will always stay visible on the top, even when you scroll down</h5> -->
+                    <br>
+                    <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                    <a href="#!">
+                      <button type="button" class="btn mt-lg-3 mx-0 default-bg-color">Explore Them</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('img/banners/bggggg.png'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-purple-light d-flex align-items-center">
+
+              <!-- Content -->
+              <div class="container white-text">
+                <div class="col-md-6">
+                  <div class="wow fadeInUp">
+                    <h2 class="title1">Top Photographers</h2>
+                    <!-- <h5>It will always stay visible on the top, even when you scroll down</h5> -->
+                    <br>
+                    <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                    <a href="#!">
+                      <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Explore Them</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('img/banners/slider1.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-brown-strong d-flex justify-content-center align-items-center">
+
+              <!-- Content -->
+              <div class="container white-text">
+                <div class="col-md-6">
+                  <div class="wow fadeInUp">
+                    <h2 class="title1">Top 5 Places to Explore</h2>
+                    <!-- <h5>It will always stay visible on the top, even when you scroll down</h5> -->
+                    <br>
+                    <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                    <a href="#!">
+                      <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Explore Them</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Third slide-->
+
+        <!--Fourth slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('img/banners/developer.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-orange-strong d-flex justify-content-center align-items-center">
+
+              <!-- Content -->
+              <div class="container white-text">
+                <div class="col-md-6">
+                  <div class="wow fadeInUp">
+                    <h2 class="title1">Top 5 Places to Explore</h2>
+                    <!-- <h5>It will always stay visible on the top, even when you scroll down</h5> -->
+                    <br>
+                    <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                    <a href="#!">
+                      <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Explore Them</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Fourth slide-->
+
+      </div>
+      <!--/.Slides-->
+
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+    <!-- Header banner and content here-->
+  </header>
+  <!-- Header section -->
+
+  <!-- Main site content here-->
+  <main>
+    <!-- Top 4 category display section-->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 p-0 mb-sm-3 mb-md-0">
+          <div class="no-shadow">
+            <div class="card rounded-0 px-0 white-text view rgba-indigo-light overlay text-center wow fadeIn">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <i class="material-icons white-text md-48">event_seat</i>
+                <h4 class="title3 font-weight-bold">
+                 Latest Movies
+                </h4>
+                <hr class="border w-25 text-center rgba-pink-strong">
+                <!-- Text -->
+                <p class="description white-text text-truncate">
+                  View all asset related information and data in real-time, at any point from any location
+                </p>
                 <a href="#!">
-                  <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Explore Them</button>
+                  <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-0 mb-sm-3 mb-md-0">
+          <div class="no-shadow">
+            <div class="card rounded-0 px-0 white-text view rgba-purple-strong overlay text-center wow fadeIn">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <i class="material-icons white-text md-48">restaurant_menu</i>
+                <h4 class="title3 font-weight-bold">
+                 Top Restaurants
+                </h4>
+                <hr class="border w-25 text-center rgba-pink-strong">
+                <!-- Text -->
+                <p class="description white-text text-truncate">
+                  View all asset related information and data in real-time, at any point from any location
+                </p>
+                <a href="#!">
+                  <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-0 mb-sm-3 mb-md-0">
+          <div class="no-shadow">
+            <div class="card rounded-0 px-0 white-text view rgba-brown-strong overlay text-center wow fadeIn">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <i class="material-icons text-white md-48">camera_alt</i>
+                <h4 class="title3 font-weight-bold">
+                  Top Photographers
+                </h4>
+                <hr class="border w-25 text-center rgba-pink-strong">
+                <!-- Text -->
+                <p class="description white-text text-truncate">
+                  View all asset related information and data in real-time, at any point from any location
+                </p>
+                <a href="#!">
+                  <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 p-0  mb-sm-3 mb-md-0">
+          <div class="no-shadow">
+            <div class="card rounded-0 px-0 white-text view rgba-orange-strong overlay text-center wow fadeIn">
+              <!-- Card content -->
+              <div class="card-body">
+                <!-- Title -->
+                <i class="material-icons white-text md-48">place</i>
+                <h4 class="title3 font-weight-bold">
+                  Places
+                </h4>
+                <hr class="border w-25 text-center rgba-pink-strong">
+                <!-- Text -->
+                <p class="description white-text text-truncate">
+                  View all asset related information and data in real-time, at any point from any location
+                </p>
+                <a href="#!">
+                  <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
                 </a>
               </div>
             </div>
@@ -67,91 +352,418 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 p-0">
-          <div class="card rounded-0 px-0 white-text view rgba-indigo-strong overlay text-center wow fadeIn">
-            <!-- Card content -->
-            <div class="card-body">
-              <!-- Title -->
-              <i class="material-icons white-text md-48">bar_chart</i>
-              <h4 class="title3 font-weight-bold">
-               Detailed Statistics
-              </h4>
-              <hr class="border w-25 text-center rgba-pink-strong">
-              <!-- Text -->
-              <p class="description white-text">
-                View all asset related information and data in real-time, at any point from any location
-              </p>
-              <a href="#!">
-                <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
-              </a>
+    <!-- Top 4 category display section-->
+
+    <!-- main articles sections -->
+    <section class="section-padding2 ">
+      <div class="container">
+
+        <div class="magazine-section">
+          <div class="row">
+            <div class="col-md-7 p-0">
+              <h4 class="title1">Featured Posts</h4>
+              <hr class="border-gray mw-25">
             </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 p-0">
-          <div class="card rounded-0 px-0 white-text view rgba-purple-strong overlay text-center wow fadeIn">
-            <!-- Card content -->
-            <div class="card-body">
-              <!-- Title -->
-              <i class="material-icons white-text md-48">lock</i>
-              <h4 class="title3 font-weight-bold">
-               Detailed Statistics
-              </h4>
-              <hr class="border w-25 text-center rgba-pink-strong">
-              <!-- Text -->
-              <p class="description white-text">
-                View all asset related information and data in real-time, at any point from any location
-              </p>
-              <a href="#!">
-                <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 p-0">
-          <div class="card rounded-0 px-0 white-text view rgba-brown-strong overlay text-center wow fadeIn">
-            <!-- Card content -->
-            <div class="card-body">
-              <!-- Title -->
-              <i class="material-icons text-white md-48">share</i>
-              <h4 class="title3 font-weight-bold">
-                Strong Security
-              </h4>
-              <hr class="border w-25 text-center rgba-pink-strong">
-              <!-- Text -->
-              <p class="description white-text">
-                View all asset related information and data in real-time, at any point from any location
-              </p>
-              <a href="#!">
-                <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-3 col-md-6 p-0">
-          <div class="card rounded-0 px-0 white-text view rgba-orange-strong overlay text-center wow fadeIn">
-            <!-- Card content -->
-            <div class="card-body">
-              <!-- Title -->
-              <i class="material-icons white-text md-48">bar_chart</i>
-              <h4 class="title3 font-weight-bold">
-                Instant Connect
-              </h4>
-              <hr class="border w-25 text-center rgba-pink-strong">
-              <!-- Text -->
-              <p class="description white-text">
-                View all asset related information and data in real-time, at any point from any location
-              </p>
-              <a href="#!">
-                <button type="button" class="btn mt-lg-3 mx-0 brown lighten-2">Read More</button>
-              </a>
+            <div class="row">
+               <div class="col-md-6 py-2">
+                <!-- Featured news -->
+                <div class="single-news mb-4">
+                  <!-- Image -->
+                  <div class="view overlay rounded z-depth-1-half mb-4">
+                    <img class="img-fluid" src="img/banners/avengers-4-1.png" alt="Sample image">
+                    <a>
+                      <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                    </a>
+                  </div>
+
+                  <!-- Data -->
+                  <div class="news-data d-flex justify-content-between">
+                    <a href="#!" class="light-blue-text"><h6 class="font-weight-bold"><i class="material-icons pr-2 ">event_seat</i>Movie</h6></a>
+                    <p class="font-weight-bold dark-grey-text"><i class="fa fa-clock-o pr-2"></i>20/08/2018</p>
+                  </div>
+
+                  <!-- Excerpt -->
+                  <h3 class="font-weight-bold dark-grey-text mb-3"><a>Title of the news</a></h3>
+                  <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                </div>
+                <!-- Featured news -->
+
+                <!-- Small news -->
+                <div class="single-news mb-4">
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3">
+
+                      <!--Image-->
+                      <div class="view overlay h-75 rounded z-depth-1 mb-4">
+                        <img class="img-fluid" src="img/sammy-jetpack.png" alt="Sample image">
+                        <a>
+                          <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                        </a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-9">
+
+                      <!-- Excerpt -->
+                      <p class="font-weight-bold dark-grey-text">19/08/2018</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="col-11 text-truncate pl-0 mb-3">
+                          <a href="#!" class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                        </div>
+                        <a><i class="fa fa-angle-double-right"></i></a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                </div>
+                <!-- Small news -->
+
+                <!-- Small news -->
+                <div class="single-news mb-4">
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3">
+
+                      <!--Image-->
+                      <div class="view overlay h-75 rounded z-depth-1 mb-4">
+                        <img class="img-fluid" src="img/img3.jpg" alt="Sample image">
+                        <a>
+                          <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-9">
+
+                      <!-- Excerpt -->
+                      <p class="font-weight-bold dark-grey-text">19/08/2018</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="col-11 text-truncate pl-0 mb-3">
+                          <a href="#!" class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                        </div>
+                        <a><i class="fa fa-angle-double-right"></i></a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                </div>
+                <!-- Small news -->
+
+                <!-- Small news -->
+                <div class="single-news mb-4">
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3">
+
+                      <!--Image-->
+                      <div class="view overlay h-75 rounded z-depth-1 mb-4">
+                        <img class="img-fluid" src="img/banners/test_bio_image.jpg" alt="Sample image">
+                        <a>
+                          <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                        </a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-9">
+
+                      <!-- Excerpt -->
+                      <p class="font-weight-bold dark-grey-text">19/08/2018</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="col-11 text-truncate pl-0 mb-3">
+                          <a href="#!" class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                        </div>
+                        <a><i class="fa fa-angle-double-right"></i></a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                </div>
+                <!-- Small news -->
+              </div>
+
+              <div class="col-md-6 py-2">
+                <!-- Featured news -->
+                <div class="single-news mb-4">
+                  <!-- Image -->
+                  <div class="view overlay rounded z-depth-1-half mb-4">
+                    <img class="img-fluid" src="img/banners/justice-league.jpg" alt="Sample image">
+                    <a>
+                      <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                    </a>
+                  </div>
+
+                  <!-- Data -->
+                  <div class="news-data d-flex justify-content-between">
+                    <a href="#!" class="light-blue-text"><h6 class="font-weight-bold"><i class="material-icons pr-2 ">event_seat</i>Movie</h6></a>
+                    <p class="font-weight-bold dark-grey-text"><i class="fa fa-clock-o pr-2"></i>20/08/2018</p>
+                  </div>
+
+                  <!-- Excerpt -->
+                  <h3 class="font-weight-bold dark-grey-text mb-3"><a>Title of the news</a></h3>
+                  <p class="dark-grey-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.</p>
+                </div>
+                <!-- Featured news -->
+
+                <!-- Small news -->
+                <div class="single-news mb-4">
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3">
+
+                      <!--Image-->
+                      <div class="view overlay h-75 rounded z-depth-1 mb-4">
+                        <img class="img-fluid" src="img/sammy-jetpack.png" alt="Sample image">
+                        <a>
+                          <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                        </a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-9">
+
+                      <!-- Excerpt -->
+                      <p class="font-weight-bold dark-grey-text">19/08/2018</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="col-11 text-truncate pl-0 mb-3">
+                          <a href="#!" class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                        </div>
+                        <a><i class="fa fa-angle-double-right"></i></a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                </div>
+                <!-- Small news -->
+
+                <!-- Small news -->
+                <div class="single-news mb-4">
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3">
+
+                      <!--Image-->
+                      <div class="view overlay h-75 rounded z-depth-1 mb-4">
+                        <img class="img-fluid" src="img/img3.jpg" alt="Sample image">
+                        <a>
+                          <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                        </a>
+                      </div>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-9">
+
+                      <!-- Excerpt -->
+                      <p class="font-weight-bold dark-grey-text">19/08/2018</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="col-11 text-truncate pl-0 mb-3">
+                          <a href="#!" class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                        </div>
+                        <a><i class="fa fa-angle-double-right"></i></a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                </div>
+                <!-- Small news -->
+
+                <!-- Small news -->
+                <div class="single-news mb-4">
+                  <!-- Grid row -->
+                  <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3">
+
+                      <!--Image-->
+                      <div class="view overlay h-75 rounded z-depth-1 mb-4">
+                        <img class="img-fluid" src="img/banners/test_bio_image.jpg" alt="Sample image">
+                        <a>
+                          <div class="mask rgba-white-slight waves-effect waves-light"></div>
+                        </a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-9">
+
+                      <!-- Excerpt -->
+                      <p class="font-weight-bold dark-grey-text">19/08/2018</p>
+                      <div class="d-flex justify-content-between">
+                        <div class="col-11 text-truncate pl-0 mb-3">
+                          <a href="#!" class="dark-grey-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit</a>
+                        </div>
+                        <a><i class="fa fa-angle-double-right"></i></a>
+                      </div>
+
+                    </div>
+                    <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+                </div>
+                <!-- Small news -->
+              </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
+    <!-- main articles sections -->
+    
+    <section class="section-padding2 grey lighten-4">
+      <div class="container">
+        <div class="row py-5">
+          
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Main site content here-->
+
+  <!-- Footer section right here-->
+  <!-- Footer -->
+  <footer class="page-footer font-small default-bg-color pt-4">
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Footer links -->
+      <div class="row text-center text-md-left mt-3 pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Company name</h6>
+          <p>HAUSA ROOM <br>Everything North and beyond.</p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">About</h6>
+          <p>
+            <a href="#!">Company</a>
+          </p>
+          <p>
+            <a href="#!">Terms of Service</a>
+          </p>
+          <p>
+            <a href="#!">Privacy Policy</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+          <p>
+            <a href="#!">Your Account</a>
+          </p>
+          <p>
+            <a href="#!">Upload toons</a>
+          </p>
+          <p>
+            <a href="#!">Advertising Rates</a>
+          </p>
+          <p>
+            <a href="#!">Help</a>
+          </p>
+        </div>
+
+        <!-- Grid column -->
+        <hr class="w-100 clearfix d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <p>
+            <i class="fa fa-home mr-3"></i> 2 Erie Crescent Maitama, Abuja, Nigeria</p>
+          <p>
+            <i class="fa fa-envelope mr-3"></i> info@hausaroom.com</p>
+          <p>
+            <i class="fa fa-phone mr-3"></i> + 234 806 068 6834 </p>
+        </div>
+ 
+
+        <!-- Grid column -->
+
+      </div>
+      <!-- Footer links -->
+
+      <hr>
+
+      <!-- Grid row -->
+      <div class="row d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-7 col-lg-8">
+
+          <!--Copyright-->
+          <p class="text-center text-md-left"> © 2018 - Hausa Room. All rights reserved.
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-5 col-lg-4 ml-lg-0">
+          <p class="text-white text-right">Built by .........</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
     </div>
-  </header>
+    <!-- Footer Links -->
+
+  </footer>
+  <!-- Footer section right here-->
+  <!-- Project starts here-->
+
 
 
 
