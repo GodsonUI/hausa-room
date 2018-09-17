@@ -122,15 +122,17 @@
 }
 
 .nav-link {
-  -webkit-transition: 2.55s;
+  -webkit-transition: 3.55s;
   -o-transition: 2.55s;
-  transition: 2.55s;
+  color: #000 !important;
+  transition: 3.55s;
 }
 .nav-link:hover {
   background-color: #d7aa74;
-  -webkit-transition: 4.55s;
-  -o-transition: 4.55s;
-  transition: 4.55s;
+  /*-webkit-transition: 4.55s;*/
+  /*-o-transition: 4.55s;*/
+  /*transition: 4.55s;*/
+  color: #fff !important;
 }
 .section-padding {
   padding-top: 150px;
@@ -261,7 +263,7 @@ a.waves-effect, a.waves-light {
     position: absolute;
     z-index: 2;
     margin-top: 0;
-    margin-left: -23px;
+    margin-left: -29px;
     -webkit-border-radius: 10em;
     border-radius: 10em;
     padding: 1px 7px;
