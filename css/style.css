@@ -134,6 +134,17 @@
   /*transition: 4.55s;*/
   color: #fff !important;
 }
+.dropdown-item:hover{
+  background-color: #f0be82;
+  webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+  box-shadow: 0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+  color: #fff;
+  /*-webkit-border-radius: .125rem;*/
+  /*border-radius: .125rem;*/
+  -webkit-transition: all .1s linear;
+  -o-transition: all .1s linear;
+  transition: all .1s linear;
+}
 .section-padding {
   padding-top: 150px;
   padding-bottom: 150px;
