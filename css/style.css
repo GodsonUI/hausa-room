@@ -186,6 +186,13 @@ body,
 .default-bg-color {
   background-color: #f0be82 !important;
 }
+.text-default {
+  color: #f0be82 !important;
+}
+
+.default-border-color {
+  background-color: #f0be82 !important;
+}
 .top-nav-collapse {
   background-color: #929FBA; }
 
