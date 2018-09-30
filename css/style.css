@@ -306,10 +306,3 @@ a.waves-effect, a.waves-light {
     background-color: #2e5e86 !important;
     color: #fff !important;
 }
-
-.fa-chevron-right::before {
-    content: "\f054";
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
