@@ -307,11 +307,17 @@ a.waves-effect, a.waves-light {
     color: #fff !important;
 }
 
-.card-columns {
-  @include media-breakpoint-only(lg) {
-    column-count: 4;
-  }
-  @include media-breakpoint-only(xl) {
-    column-count: 5;
-  }
+.overlay .card-img-top {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+}
+.default-bg-color-transparent{
+  background-color: rgba(240,190,130, 0.5);
+}
+
+.select-element:hover ~ .overlay > img{
+  filter: none;
+  -webkit-filter: none;
+  -o-filter: none;
 }
