@@ -329,7 +329,7 @@ a.waves-effect, a.waves-light {
   background-size: cover;
   background-repeat: no-repeat;
   /*flex-direction: row;*/
-  height: 136px;
+  height: 125px;
   color: #ffffff;
 }
 
@@ -348,4 +348,11 @@ a.waves-effect, a.waves-light {
   margin-right: 20px;
   font-size: 18px;
   padding: 15px 35px;
+}
+
+.collection-image-cover {
+  background-image: url(../img/places/restaurant/places/collection/normal_amala-bukka-rs.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
 }
