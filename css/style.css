@@ -92,6 +92,33 @@
 
 }
 
+@font-face {
+    font-family: 'roboto';
+    src: url('../font/roboto/Roboto-Bold.eot');
+    src: url('../font/roboto/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto/Roboto-Bold.woff2') format('woff2'),
+         url('../font/roboto/Roboto-Bold.woff') format('woff'),
+         url('../font/roboto/Roboto-Bold.ttf') format('truetype'),
+         url('../font/roboto/Roboto-Bold-webfont.svg#roboto_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'roboto-Medium';
+    src: url('../font/roboto/Roboto-Light.eot');
+    src: url('../font/roboto/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/roboto/Roboto-Light.woff2') format('woff2'),
+         url('../font/roboto/Roboto-Light.woff') format('woff'),
+         url('../font/roboto/Roboto-Light.ttf') format('truetype'),
+         url('../font/roboto/Roboto-Light-webfont.svg#roboto_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*Mater Design Roboto font*/
 
 .title1 {
@@ -106,7 +133,13 @@
 .title4 {
   font-family: 'roboto_slabthin';
 }
-
+.bold-title {
+  font-family: roboto;
+}
+.normal-title2 {
+  font-family: roboto-Medium;
+  font-weight: lighter;
+}
 .navbar {
     background-color: transparent;
 }
@@ -355,4 +388,41 @@ a.waves-effect, a.waves-light {
   background-size: cover;
   background-repeat: no-repeat;
   height: 8rem;
+}
+.collection-image-cover2 {
+  background-image: url(../img/places/restaurant/places/collection/normal_Best-Cafes-Lagos-Nigeria.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+.collection-image-cover3 {
+  background-image: url(../img/places/restaurant/places/collection/normal_Best-healthy-food-nigeria.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+.collection-image-cover4 {
+  background-image: url(../img/places/restaurant/places/collection/normal_best-romantic-restaurants-lagos-nigeria.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+.collection-image-cover5 {
+  background-image: url(../img/places/restaurant/places/collection/normal_Ice-cream-food-30981067-1440-900.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+.collection-image-cover6 {
+  background-image: url(../img/places/restaurant/places/collection/normal_o_TGIF_Stacked-Burger-LR.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+
+.collection-item {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 0.375rem;
+  /*border: 1px solid #d9d9d9;*/
 }
