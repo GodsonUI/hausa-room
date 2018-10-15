@@ -419,6 +419,24 @@ a.waves-effect, a.waves-light {
   background-repeat: no-repeat;
   height: 8rem;
 }
+.collection-image-cover7 {
+  background-image: url(../img/places/restaurant/places/collection/normal_Rooftop-bars.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+.collection-image-cover8 {
+  background-image: url(../img/places/restaurant/places/collection/normal_shisha.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
+.collection-image-cover9 {
+  background-image: url(../img/places/restaurant/places/collection/normal_Best-healthy-food-nigeria.jpg); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 8rem;
+}
 
 .collection-item {
   -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
