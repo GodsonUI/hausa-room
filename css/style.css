@@ -321,3 +321,31 @@ a.waves-effect, a.waves-light {
   -webkit-filter: none;
   -o-filter: none;
 }
+
+.ads-row {
+  width: 100%;
+  background: #f0be82;
+  background-image: url(../img/ads/HP_shelf_full_width_bg.png); /* fallback */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*flex-direction: row;*/
+  height: 136px;
+  color: #ffffff;
+}
+
+.image-container {
+  width: 90px;
+  height: 90px;
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+.message-container {
+  font-size: 32px;
+}
+
+.ui-button {
+  margin-right: 20px;
+  font-size: 18px;
+  padding: 15px 35px;
+}
